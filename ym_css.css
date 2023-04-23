@@ -1,7 +1,9 @@
             body{
-                background-image: url(imagens/portugal1.jfif);
-                background-size: left;
-                color: blueviolet;
+                background-image: url(imagens/portugal6.jfif);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                color: black;
                 text-align: right;
                 margin: 0px 80px 0px 0px;  
                 margin-right: 80px; 
@@ -29,9 +31,9 @@
                         display: inline;
                     }
                     ul li a {
-                        color: forestgreen;
+                        color: white;
                     text-decoration: none;
-                    font-size: 15px;
+                    font-size: 20px;
                     padding: 5px;
                     }
 
@@ -45,5 +47,38 @@
                             color: beige;
                         } 
                         .botao:hover{
-                            background-color: crimson;
-                        }
+                            background-color: green;
+                            opacity: 0.8;
+                            
+                         @media (max: width 640px;{
+                            body {
+                                background: blue;
+                                text-align: center;
+                            }
+                            
+                         h1{
+                         font-size: 70px;
+                         margin-bottom: 70px;
+                         padding-top: 180px;
+                         }
+                          
+                         p{
+                            font-size: 30px;
+                         }
+                         .segundo-paragrafo{
+                            margin-top: 20px;
+                         }
+                         }
+                         /* breakpoints mais comuns
+                         tlm: 640px
+                         tablet:1024px
+                         desktop: 1280px
+                         xl desktop: 1536px
+                               /*
+
+                         
+
+
+                         
+             
+                
